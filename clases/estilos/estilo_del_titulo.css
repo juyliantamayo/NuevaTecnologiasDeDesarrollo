@@ -1,7 +1,13 @@
 #divPrincipal{
 	height: 10%;
 	width: 75%;
-	position: absolute;
-	
 
+}
+#Texto{
+	position: static;
+	top: 50px;
+}
+p{
+
+	font-size: 200%;
 }
