@@ -1,4 +1,11 @@
-#title{
- 
- 
+body {
+background-image: url("https://orientacion.universia.net.co/imgs2011/imagenes/konrad-lor-2018_08_03_115600@2x.jpg"  );
+background-size: 100% 100%;
+background-repeat: no-repeat;
+}
+
+#central{
+    background-color: white;
+    width: 75%;
+    opacity: 0.9;
 }

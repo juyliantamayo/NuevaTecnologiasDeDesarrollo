@@ -7,10 +7,21 @@
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 	<link rel="stylesheet" href="../estilos/superiorEstilos.css">
+	<link rel="stylesheet" href="../estilos/carrusel.css">
 </head>
 <body onload="mostrarInformacionDelCurso()" class="alert alert-light">
+<center>
+<section id="central">
 	<center>
 		<br>
+		<div class="deslizador" class="alert alert-light">
+		 <ul>
+			 <li><img src="../../image/carrusel/java.jpg" alt=""></li>
+			 <li><img src="../../image/carrusel/profesora.jpg" alt=""></li>
+			 <li><img src="../../image/carrusel/python.jpg" alt=""></li>
+		 </ul>
+	 </div>
+
 		<div class="row" id="botones">
 			<div class="col-sm-4 ">
 			<button type="button" class="btn btn-primary" onclick="mostrarInformacionDelCurso()" style="height: 100%; width: 100%; top: 10px; background-color: #58595B;">informacion del curso</button></div>
@@ -24,16 +35,17 @@
     <section class="rounded border border-secondary" style="width: 75%">
     	<br>
 			<section class="rounded border border-primary">
-				<p id="titulo"></p>
-			
+				<p id="titulo" style=""></p>
+
 			</section>
-			
+
 			<section class="rounded border border-danger">
 				<p id="parrafo"></p>
 			</section>
 			<br>
 		</section>
-
 	</center>
+</section>
+</center>
 </body>
 </html>

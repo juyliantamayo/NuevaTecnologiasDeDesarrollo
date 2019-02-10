@@ -1,11 +1,10 @@
 .deslizador {
-  width: 30%;
-
-  max-height:10%; 
+  width: 40%;
+  max-height:30%;
   margin: auto;
   overflow: hidden;
 
- 
+
 }
 
 .deslizador ul {
