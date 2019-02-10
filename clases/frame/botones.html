@@ -8,7 +8,7 @@
  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 	<link rel="stylesheet" href="../estilos/superiorEstilos.css">
 </head>
-<body>
+<body onload="mostrarInformacionDelCurso()" class="alert alert-light">
 	<center>
 		<br>
 		<div class="row" id="botones">
@@ -21,14 +21,15 @@
 		</div>
 			<br><br>
 
-    <section class="rounded border border-secondary">
+    <section class="rounded border border-secondary" style="width: 75%">
     	<br>
 			<section class="rounded border border-primary">
-				<br>
+				<p id="titulo"></p>
+			
 			</section>
-			<br>
+			
 			<section class="rounded border border-danger">
-				<br>
+				<p id="parrafo"></p>
 			</section>
 			<br>
 		</section>

@@ -1,39 +1,15 @@
-var clic=1,click=1,cli=1;
+
 function mostrarInformacionDelCurso(){
-  if(clic==1){
-   document.getElementById('infoCurso').style.display = 'block';
-   clic = clic + 1;
-   click=2,cli=2;
-   mostrarCompetencias();
-   mostrarObjetivosGenerales();
-   } else{
-    document.getElementById('infoCurso').style.display = 'none';
-    clic = 1;
-   }
+ document.getElementById("titulo").innerHTML="INFORMACION DEL CURSO:";
+ document.getElementById("parrafo").innerHTML="codigo de asignatura: 31614 <br\> creditos academicos: 3 <br\> semetestre: 5 <br\> area curricular donde esta ubicada: desarrollo de software <br> pre-requisito: diseño de interfaces <br> horas presenciales por semana: 4 <br> horas de trabajo independiente: 9 <br> total horas/semana: 9";
 }
 
 function mostrarCompetencias(){
-  if(click==1){
-   document.getElementById('competencias').style.display = 'block';
-   click = click + 1;
-   clic=2,cli=2;
-   mostrarInformacionDelCurso();
-   mostrarObjetivosGenerales();
-   } else{
-    document.getElementById('competencias').style.display = 'none';
-    click = 1;
-   }
+document.getElementById("titulo").innerHTML="COMPETECIAS: ";
+ document.getElementById("parrafo").innerHTML="*trabajo en equipo, liderazgonegociacion y comunicacion <br>*uso de herramientas para el desarrollo y gestion de proyectos de sotware<br>*diseñar software de calidad paraa dar solucion a un problema<br>*aplica patrones de arquitectura para proponersalociones adecuadas a <br>problemas o necesidades especificas";
 }
 
 function mostrarObjetivosGenerales(){
-  if(cli==1){
-   document.getElementById('objetivoGeneral').style.display = 'block';
-   cli = cli + 1;
-   clic=2,click=2;
-   mostrarInformacionDelCurso();
-   mostrarCompetencias();
-   } else{
-    document.getElementById('objetivoGeneral').style.display = 'none';
-    cli = 1;
-   }
+ document.getElementById("titulo").innerHTML="OBJETIVOS GENERALES:";
+  document.getElementById("parrafo").innerHTML="Comprender algunas de las tecnologías de desarrollo web de los últimos tiempos, conocer<br>sus funcionalidades y limitaciones para plantear y desarrollar proyectos innovadores en el<br>campo de las aplicaciones web. Se espera que el estudiante domine las aplicaciones Web.";
 }
