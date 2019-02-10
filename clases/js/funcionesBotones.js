@@ -1,7 +1,7 @@
 
 function mostrarInformacionDelCurso(){
  document.getElementById("titulo").innerHTML="INFORMACION DEL CURSO:";
- document.getElementById("parrafo").innerHTML="codigo de asignatura: 31614 <br\> creditos academicos: 3 <br\> semetestre: 5 <br\> area curricular donde esta ubicada: desarrollo de software <br> pre-requisito: diseño de interfaces <br> horas presenciales por semana: 4 <br> horas de trabajo independiente: 9 <br> total horas/semana: 9";
+ document.getElementById("parrafo").innerHTML="codigo de asignatura: 31614 <br\> creditos academicos: 3 <br\> semetestre: 5 <br\> area curricular donde esta ubicada: desarrollo de software <br> pre-requisito: diseño de interfaces <br> horas presenciales por semana: 4 <br> horas de trabajo independiente: 5 <br> total horas/semana: 9";
 }
 
 function mostrarCompetencias(){
