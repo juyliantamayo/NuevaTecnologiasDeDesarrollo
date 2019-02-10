@@ -1,0 +1,36 @@
+.deslizador {
+  width: 55%;
+  height: 10%;
+  margin: auto;
+  overflow: hidden;
+}
+
+.deslizador ul {
+  display: flex;
+  padding: 0;
+  width: 300%;
+  height: 100%;
+  animation: cambio 15s infinite alternate;
+  animation-timing-function: ease-out;
+}
+
+.deslizador li {
+  width: 100%;
+  list-style: none;
+}
+
+.deslizador img {
+  width: 100%;
+  height: 70%;
+}
+
+@keyframes cambio {
+    0% { margin-left: 0; }
+    30% { margin-left: 0; }
+
+    33% { margin-left: -100%; }
+    63% { margin-left: -100%; }
+
+    66% { margin-left: -200%; }
+    100% { margin-left: -200%; }
+}
